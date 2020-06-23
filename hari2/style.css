@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(red, green, blue);
+    background-image: url(koding.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right top;
+}
+h1{
+    color: blue;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h2{
+    color: blue;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.menu:link{
+    background: grey;
+    color: red;
+}
+
+.menu:visited{
+    background: yellow;
+}
+
+.menu:hover{
+    background: green;
+}
+
+.menu:active{
+    background: wheat;
+}
+
+#menu_web{
+    background: yellow;
+}
+
+#text_panjang{
+    text-align: justify;
+    text-indent: 30px;
+    letter-spacing: 5px;
+    line-height: 20px;
+    word-spacing: 5px;
+}
+
+#text_pendek{
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+nav .link {
+    float: right;
+    padding: 0;
+    margin: 0;
+    width: 35%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+  }
